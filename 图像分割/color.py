@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 # 检查文件是否存在
-image_path = r"D:\Desktop\320.png"
+image_path = r"picture.png"
 if not os.path.exists(image_path):
     print(f"Error: File does not exist at {image_path}")
     exit(1)
